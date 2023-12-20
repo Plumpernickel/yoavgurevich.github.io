@@ -1,56 +1,23 @@
 {
-  "name": "yoavgurevich.github.io",
-  "version": "1.0.0",
-  "description": "Github pages landing for professional portfolio",
-  "main": "index.js",
-  "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
-    "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yoavgurevich/yoavgurevich.github.io.git"
-  },
-  "author": "Yoav Gurevich",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yoavgurevich/yoavgurevich.github.io/issues"
-  },
-  "homepage": "https://github.com/yoavgurevich/yoavgurevich.github.io#readme",
-  "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/plugin-proposal-class-properties": "^7.0.0",
-    "@babel/plugin-proposal-decorators": "^7.0.0",
-    "@babel/plugin-proposal-json-strings": "^7.0.0",
-    "@babel/plugin-proposal-optional-chaining": "^7.9.0",
-    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
-    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
-    "@babel/plugin-syntax-import-meta": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.0",
-    "css-loader": "^0.28.11",
-    "file-loader": "^1.1.11",
-    "node-sass": "^4.13.1",
-    "react-hot-loader": "^4.1.0",
-    "sass-loader": "^7.0.1",
-    "style-loader": "^0.20.3",
-    "url-loader": "^1.0.1",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.0",
-    "webpack-dev-server": "^3.10.3"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.29",
-    "@fortawesome/free-brands-svg-icons": "^5.13.1",
-    "@fortawesome/free-solid-svg-icons": "^5.13.1",
-    "@fortawesome/react-fontawesome": "^0.1.11",
-    "imagemin-webpack-plugin": "^2.4.2",
-    "optimize-css-assets-webpack-plugin": "^5.0.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-id-swiper": "^3.0.0",
-    "swiper": "^5.4.1"
-  }
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^1.2.29",
+		"@fortawesome/free-brands-svg-icons": "^5.13.1",
+		"@fortawesome/free-solid-svg-icons": "^5.13.1",
+		"@fortawesome/react-fontawesome": "^0.1.11",
+		"preact": "^10.13.1",
+		"react-id-swiper": "^3.0.0",
+		"swiper": "^5.4.1"
+	},
+	"devDependencies": {
+		"@preact/preset-vite": "^2.5.0",
+		"sass": "^1.69.5",
+		"vite": "^4.3.2"
+	}
 }
