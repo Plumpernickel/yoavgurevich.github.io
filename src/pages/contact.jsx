@@ -10,6 +10,9 @@ import {
 	faFontAwesomeFlag
 } from '@fortawesome/free-brands-svg-icons';
 import ScrollButton from '../components/ScrollButton/ScrollButton';
+
+import skyline from "../assets/tor-skyline.svg";
+
 import '../stylesheets/contact.scss';
 
 const Contact = ({ refsList }) => {
@@ -82,7 +85,7 @@ const Contact = ({ refsList }) => {
 				</div>
 			</footer>
 			<svg id="skyline-inverse">
-				<image xlinkHref="https://openclipart.org/download/307354/1538176045.svg" />
+				<image href={skyline} />
 			</svg>
 		</div>
 	);

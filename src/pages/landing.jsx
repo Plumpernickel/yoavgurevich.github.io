@@ -10,6 +10,8 @@ import yg3 from "../assets/yg3.png";
 import yg4 from "../assets/yg4.png";
 import yg5 from "../assets/yg5.png";
 
+import skyline from "../assets/tor-skyline.svg";
+
 import "../stylesheets/landing.scss";
 
 const Landing = ({ refsList }) => {
@@ -41,7 +43,7 @@ const Landing = ({ refsList }) => {
   return (
     <div role="banner" id="landing" className="fsh intro-bg" ref={refsList.landing}>
       <svg xmlns="http://www.w3.org/2000/svg" id="skyline">
-        <image xlinkHref="https://openclipart.org/download/307354/1538176045.svg" />
+        <image href={skyline} />
       </svg>
       <div className="landing-content flex flex-column justify-between items-center overflow-visible">
         <div className="landing-img">
